@@ -1,51 +1,68 @@
-<body bgcolor="springgreen"></body>
-<fieldset>
-<h3>User Form</h3>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="This is">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tittle>Ferdi Husnal Website</tittle>
+    </head>
+    <body>
 
-<form action= "" method="POST">
-<table>
-    <tr>
-        <td>First Name</td>
-        <td><input type="text"></td>
-    </tr>
-    <tr>
-        <td>Password</td>
-        <td><input type="password"></td>
-    </tr>
-    <tr>
-        <td>Gender</td>
-        <td><input type="radio" name="gn"> Male
-            <input type="radio" name="gn"> Female
-        </td>
-    </tr>
-    <tr>
-        <td>Address</td>
-        <td><textarea></textarea></td>
-    </tr>
-    <tr>
-        <td>D.O.B</td>
-        <td><input type="date"></td>
-    </tr>
-    <tr>
-        <td>Select Games</td>
-        <td><input type="checkbox"> Hockey
-            <input type="checkbox"> Football
-            <input type="checkbox"> Cricket
-            <input type="checkbox"> VolleyBall
-        </td>
-    </tr>
-    <tr>
-        <td>Martial Status</td>
-        <td><input type="radio" name="ms"> Married
-            <input type="radio" name="ms"> Unmarried
-        </td>    
-    </tr>
-    <tr>
-        <td></td>
-        <td><input type="submit" value="Submit">
-            <input type="reset" value="Reset">
-        </td>
-    </tr>
-</table>
-</form>
-</fieldset>
+        <table border="1" cellspacing="0" cellpadding="15">
+            <thead>
+            <caption><h1>Data Mahasiswa</h1></caption>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">NPM</th>
+                <th rowspan="2">Mahasiswa</th>
+                <th colspan="4">Tugas</th>
+            </tr>
+            <tr>
+                <th>T1</th>
+                <th>T2</th>
+                <th>T3</th>
+                <th>Rata-Rata</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>123456</td>
+                <td>Andara Kusumawati</td>
+                <td>80.00</td>
+                <td>80.00</td>
+                <td>90.00</td>
+                <td>83.33</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>123457</td>
+                <td>Dini Rahmani</td>
+                <td>70.00</td>
+                <td>80.00</td>
+                <td>70.00</td>
+                <td>73.33</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>123458</td>
+                <td>Syamsul Rizal</td>
+                <td>100.00</td>
+                <td>80.00</td>
+                <td>80.00</td>
+                <td>86.67</td>
+            </tr>
+        <tr>
+            <td>4</td>
+            <td>123459</td>
+            <td>Timotius Agus Wicaksana</td>
+            <td>80.00</td>
+            <td>90.00</td>
+            <td>100.00</td>
+            <td>90.00</td>
+        </tr>
+        </tbody>
+        </table>
+    </body>
+</html>
